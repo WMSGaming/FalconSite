@@ -93,9 +93,14 @@ iframe {
     backdrop-filter: blur(10px);
     width: 150px;
     height: 150px;
+    transition: 0.5s all;
 }
 
-h1 {
+.discord img:hover {
+    transform: scale(1.1);
+}
+
+.footer-text-client {
     color: black;
     text-align: center;
     font-family: 'Poppins',sans-serif;
@@ -103,7 +108,7 @@ h1 {
     text-shadow: 0 0 25px black;
 }
 
-h2 {
+.footer-text-devs {
     color: black;
     text-align: center;
     font-family: 'Poppins',sans-serif;
@@ -111,7 +116,11 @@ h2 {
     text-shadow: 0 0 25px black;
 }
 
-a {
+.redirect {
     text-decoration: none;
     color: grey;
+}
+
+.redirect:hover {
+    text-decoration: underline;
 }
