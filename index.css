@@ -1,0 +1,126 @@
+body {
+    background-color: black;   
+    background-image: url("Images/blackBg.jpg");  
+    background-position: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.301);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 100px black;
+    border-radius: 15px;
+    padding: 30px;
+    background-color: rgba(31, 31, 31, 0.11);
+}
+
+.container img {
+    object-fit: cover;
+    width: 450px;
+    height: 150px;
+    padding: 15px;
+}
+
+@media (max-width: 462px) {
+    .container img {
+    object-fit: cover;
+    width: 350px;
+    height: 150px;
+    padding: 15px;
+    }
+}
+
+iframe {
+    margin: 5px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgb(0, 0, 0);
+}
+
+@media (max-width: 730px) {
+    iframe {
+        margin: 5px;
+        border-radius: 20px;
+        box-shadow: 0 0 25px rgb(0, 0, 0);
+        width: 500px;
+        height: 260px;
+    }
+}
+
+@media (max-width: 550px) {
+    iframe {
+        margin: 5px;
+        border-radius: 20px;
+        box-shadow: 0 0 25px rgb(0, 0, 0);
+        width: 400px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 430px) {
+    iframe {
+        margin: 5px;
+        border-radius: 20px;
+        box-shadow: 0 0 25px rgb(0, 0, 0);
+        width: 300px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 280px) {
+    iframe {
+        margin: 5px;
+        border-radius: 20px;
+        box-shadow: 0 0 25px rgb(0, 0, 0);
+        width: 250px;
+        height: 150px;
+    }
+
+    .container img {
+        object-fit: cover;
+        width: 250px;
+        height: 150px;
+        padding: 15px;
+    }
+}
+
+.discord img {
+    border: 3px solid rgba(0, 0, 0, 0.747);
+    outline-color: black;
+    background-color: rgba(31, 31, 31, 0.082);
+    margin-top: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px black;
+    backdrop-filter: blur(10px);
+    width: 150px;
+    height: 150px;
+    transition: 0.5s all;
+}
+
+.discord img:hover {
+    transform: scale(1.1);
+}
+
+.footer-text-client {
+    color: black;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    text-shadow: 0 0 25px black;
+}
+
+.footer-text-devs {
+    color: black;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    text-shadow: 0 0 25px black;
+}
+
+.redirect {
+    text-decoration: none;
+    color: grey;
+}
+
+.redirect:hover {
+    text-decoration: underline;
+}
